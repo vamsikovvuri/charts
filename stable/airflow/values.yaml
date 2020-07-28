@@ -685,7 +685,7 @@ logs:
     ## - if set to "", then `PersistentVolumeClaim/spec.storageClassName` is omitted
     ## - if set to "-", then `PersistentVolumeClaim/spec.storageClassName` is set to ""
     ##
-    storageClass: ""
+    storageClass: "local"
 
     ## the access mode of the PVC
     ##
@@ -746,7 +746,7 @@ dags:
     ## - if set to "", then `PersistentVolumeClaim/spec.storageClassName` is omitted
     ## - if set to "-", then `PersistentVolumeClaim/spec.storageClassName` is set to ""
     ##
-    storageClass: ""
+    storageClass: "local"
 
     ## the access mode of the PVC
     ##
@@ -1142,7 +1142,7 @@ postgresql:
 
     ## the name of the StorageClass used by the PVC
     ##
-    storageClass: ""
+    storageClass: "local"
 
     ## the access modes of the PVC
     ##
@@ -1247,7 +1247,7 @@ redis:
 
       ## the name of the StorageClass used by the PVC
       ##
-      storageClass: ""
+      storageClass: "local"
 
       ## the access mode of the PVC
       ##
@@ -1280,7 +1280,7 @@ redis:
 
       ## the name of the StorageClass used by the PVC
       ##
-      storageClass: ""
+      storageClass: "local"
 
       ## the access mode of the PVC
       ##
