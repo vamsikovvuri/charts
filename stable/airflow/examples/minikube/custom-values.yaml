@@ -91,7 +91,7 @@ dags:
   git:
     ## url of the git repository
     ##
-    url: "ssh://git@repo.example.com/my-airflow-dags.git"
+    url: "https://github.com/vamsikovvuri/charts.git"
 
     ## the branch/tag/sha1 which we clone
     ##
@@ -121,7 +121,7 @@ dags:
     ## EXAMPLE:
     ##   repoHost: "github.com"
     ##
-    repoHost: "repo.example.com"
+    repoHost: "github.com"
 
     ## the port of the git repo
     ##
@@ -145,10 +145,10 @@ dags:
 # Database - PostgreSQL Chart
 ###################################
 postgresql:
-  enabled: true
+  enabled: false
 
 ###################################
 # Database - Redis Chart
 ###################################
 redis:
-  enabled: true
+  enabled: false
